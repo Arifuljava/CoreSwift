@@ -44,6 +44,7 @@
 		25436EE92A1375DD0043DB6D /* CoreSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25436EED2A1375DD0043DB6D /* CoreSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSwiftUITests.swift; sourceTree = "<group>"; };
 		25436EEF2A1375DD0043DB6D /* CoreSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25436EFC2A1376690043DB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		25436ED12A1375DC0043DB6D /* CoreSwift */ = {
 			isa = PBXGroup;
 			children = (
+				25436EFC2A1376690043DB6D /* Info.plist */,
 				25436ED22A1375DC0043DB6D /* CoreSwiftApp.swift */,
 				25436ED42A1375DC0043DB6D /* ContentView.swift */,
 				25436ED62A1375DD0043DB6D /* Assets.xcassets */,
@@ -422,6 +424,9 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreSwift/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Please;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Please;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +456,9 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreSwift/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Please;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Please;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
